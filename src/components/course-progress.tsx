@@ -21,7 +21,9 @@ const sizeByVariant = {
 const CourseProgress: React.FC<Props> = ({ value, variant, size }) => {
     return (
         <div>
-            <Progress className="h-2" value={value} variant={variant} />
+            <Progress className="h-2"
+                      value={value}
+                      />
             <p
                 className={cn(
                     "font-medium mt-2 text-sky-700",
